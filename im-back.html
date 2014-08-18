@@ -3,7 +3,7 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-    <title>free software - Ícaro Medeiros</title>
+    <title>I'm back - Ícaro Medeiros</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -12,10 +12,14 @@
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="Ícaro Medeiros" />
-            <meta property="og:type" content="website"/>
-            <meta property="og:title" content="Ícaro Medeiros"/>
-            <meta property="og:url" content=""/>
-            <meta property="og:description" content="Ícaro Medeiros"/>
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="I'm back"/>
+            <meta property="og:url" content="/im-back.html"/>
+            <meta property="og:description" content="I&#39;m back blogging about programming and data (Linked Data or not)"/>
+            <meta property="article:published_time" content="2014-08-10" />
+                <meta property="article:section" content="misc" />
+                <meta property="article:tag" content="blogging" />
+                <meta property="article:author" content="Ícaro Medeiros" />
 
     <!-- Bootstrap -->
         <link rel="stylesheet" href="/theme/css/bootstrap.sandstone.min.css" type="text/css"/>
@@ -45,7 +49,7 @@
                          <li><a href="/pages/about.html">
                              Sobre mim (About)
                           </a></li>
-                        <li >
+                        <li class="active">
                             <a href="/category/misc.html">Misc</a>
                         </li>
             </ul>
@@ -60,22 +64,71 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <ol class="breadcrumb">
-        <li><a href="" title="Ícaro Medeiros"><i class="fa fa-home fa-lg"></i></a></li>
-        <li><a href="/" title="Tags">Tags</a></li>
-        <li class="active">free software</li>
-    </ol>
+            <ol class="breadcrumb">
+                <li><a href="" title="Ícaro Medeiros"><i class="fa fa-home fa-lg"></i></a></li>
+                <li><a href="/category/misc.html" title="misc">misc</a></li>
+                <li class="active">I'm back</li>
+            </ol>
 
-            <article>
-                <h2><a href="/4-anos-de-debian-festival.html">4 anos de Debian Festival</a></h2>
-                <div class="summary"><html><body><p>Falando do evento que ajudei a criar e organizar em Maceió cuja quarta edição aconteceu essa semana:
-O Debian Festival 4.0.</p>
-<p>Tudo começou quando a PRIMEIRA caravana de Alagoas foi pro Encontro Nacional de Estudantes de Computação (<a class="reference external" href="http://wiki.enec.org.br/ENECOMP2006">ENECOMP 2006</a>).
-Voltando do evento eu, Vicente e Marco conversávamos sobre a ...</p></body></html>
-                    <a class="btn btn-default btn-xs" href="/4-anos-de-debian-festival.html">more ...</a>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/im-back.html"
+                       rel="bookmark"
+                       title="Permalink to I'm back">
+                        I'm back
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2014-08-10T00:00:00"> 2014-08-10 00:00:00</time>
+    </span>
+
+
+
+    <p> <span class="label label-default">Tags</span>
+	<a href="/tag/blogging.html">blogging</a>
+ </p>
+    
+</footer><!-- /.post-info -->                    </div>
                 </div>
-            </article>
-            <hr/>
+                <html><body><h1>I'm back</h1>
+<p>Hi folks.</p>
+<p>I have blogged <a href="http://kirux.wordpress.com">elsewhere</a> during my Master's [2008-2009], in portuguese.</p>
+<p>Now I have this new blog proudly built using <a href="http://blog.getpelican.com/">Pelican</a>, <a href="python.org">Python</a>, both <a href="http://daringfireball.net/projects/markdown/">Markdown</a> and <a href="http://sphinx-doc.org/rest.html">RestructuredText</a>, and the <em>awesome ultimate blogging deploy system</em> that <a href="pages.github.com">Github Pages</a> offers.</p>
+<h2>A few words about blogging tools</h2>
+<p>Some of my not-so-formal requirements for a blogging tool that made me did these choices:</p>
+<ol>
+<li>I don't want emails, social media, or internet connection getting in the way of writing.</li>
+<li>I don't need a WYSIWYG tool, a <a href="vim.org">great but simple text editor</a> will work.</li>
+<li>I want static pages and control the HTML output.</li>
+<li>I want a smooth deploy.</li>
+<li>I want to import my old posts nicely.</li>
+<li>I want i18n (i.e. write both in pt-br and en).</li>
+<li>I want to write semantic annotation in my posts.</li>
+<li>I want my blog to be responsive.</li>
+</ol>
+<p><a href="wordpress.org">Wordpress</a> is enough for most people, but basically fails in items 1, 2, 3.</p>
+<p><a href="http://jekyllrb.com/">Jekyll</a>/<a href="http://octopress.org/">Octopress</a> seemed more programmer-friendly from the start, but Python seemed a low entry barrier than Ruby as Python is, specially for implementing microdata semantic annotation (item 7).  </p></body></html>
+            </div>
+            <!-- /.entry-content -->
+    <hr />
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style">
+            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+            <a class="addthis_button_tweet"></a>
+            <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    </div>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53f14e6163baee9f"></script>
+    <!-- AddThis Button END -->
+        </article>
+    </section>
 
         </div>
         <div class="col-sm-3 well well-sm" id="sidebar">
@@ -352,7 +405,7 @@ Voltando do evento eu, Vicente e Marco conversávamos sobre a ...</p></body></ht
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2009 Ícaro Medeiros
+         <div class="col-xs-10">&copy; 2014 Ícaro Medeiros
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
