@@ -17,10 +17,11 @@
             <meta property="og:url" content="/aprendizagem-de-ontologias.html"/>
             <meta property="og:description" content="Vai aí um seminário que apresentei mês passado aqui no mestrado, é uma apresentação sobre Ontology Learning. Aprendizagem de ontologias são um conjunto de processos e técnicas para: Construir uma ontologia do zero ; Enriquecer, adaptar ou popular ontologias já existentes. Ontology Learning from Ícaro Medeiros Isso é feito de maneira ..."/>
             <meta property="article:published_time" content="2008-10-31" />
-                <meta property="article:section" content="misc" />
+                <meta property="article:section" content="Blog" />
                 <meta property="article:tag" content="machine learning" />
                 <meta property="article:tag" content="ontology learning" />
                 <meta property="article:tag" content="semantic web" />
+                <meta property="article:tag" content="ontologies" />
                 <meta property="article:tag" content="linked data" />
                 <meta property="article:tag" content="information retrieval" />
                 <meta property="article:author" content="Icaro Medeiros" />
@@ -51,10 +52,13 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
                          <li><a href="/pages/about.html">
-                             Sobre mim (About)
+                             About
+                          </a></li>
+                         <li><a href="/pages/talks.html">
+                             Talks
                           </a></li>
                         <li class="active">
-                            <a href="/category/misc.html">Misc</a>
+                            <a href="/category/blog.html">Blog</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -70,7 +74,7 @@
         <div class="col-sm-9">
             <ol class="breadcrumb">
                 <li><a href="" title="Ícaro Medeiros"><i class="fa fa-home fa-lg"></i></a></li>
-                <li><a href="/category/misc.html" title="misc">misc</a></li>
+                <li><a href="/category/blog.html" title="Blog">Blog</a></li>
                 <li class="active">Aprendizagem de Ontologias</li>
             </ol>
 
@@ -103,6 +107,8 @@
         /
 	<a href="/tag/semantic-web.html">semantic web</a>
         /
+	<a href="/tag/ontologies.html">ontologies</a>
+        /
 	<a href="/tag/linked-data.html">linked data</a>
         /
 	<a href="/tag/information-retrieval.html">information retrieval</a>
@@ -110,8 +116,8 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <html><body><p>Vai aí um seminário que apresentei mês passado aqui no <a class="reference external" href="http://www.cin.ufpe.br/~in1099/082/">mestrado</a>, é uma apresentação sobre Ontology Learning.
-Aprendizagem de ontologias são um conjunto de processos e técnicas para:</p>
+                <html><body><p>Vai aí um seminário que apresentei mês passado aqui no <a class="reference external" href="http://www.cin.ufpe.br/~in1099/082/">mestrado</a>, é uma apresentação sobre Ontology Learning.</p>
+<p>Aprendizagem de ontologias são um conjunto de processos e técnicas para:</p>
 <ul class="simple">
 <li>Construir uma ontologia do zero ;</li>
 <li>Enriquecer, adaptar ou popular ontologias já existentes.</li>
@@ -125,35 +131,27 @@ Aprendizagem de ontologias são um conjunto de processos e técnicas para:</p>
     <strong>
 <a href="http://www.slideshare.net/icaromedeiros" target="_blank">Ícaro Medeiros</a>
 </strong>
-</div><p>Isso é feito de maneira semi-automática a partir de dados como texto (principalmente), schemas XML, bancos de dados e até folksonomias
-sobre o domínio a ser formalizado.</p>
+</div><p>Isso é feito de maneira semi-automática a partir de dados como texto (principalmente), schemas XML, bancos de dados e até <a class="reference external" href="/a-fantastica-fabrica-de-conhecimento.html">folksonomias</a> sobre o domínio a ser formalizado.</p>
+<ol class="arabic simple">
+<li>Especialistas do domínio escrevem artigos, relatórios técnicos, livros, etc.</li>
+<li>Isso está representado em texto (é seu corpus).</li>
+<li>Com a aprendizagem temos uma conceitualização do domínio numa ontologia - seja ela uma hierarquia simples ou uma ontologia com relacionamentos e axiomas.</li>
+<li>As definições que estão na ontologia representam uma síntese da opinião consensual dos especialistas sobre aquele domínio. Os especialistas ou os usuários da aplicação usando a ontologia podem melhorar a ontologia depois, e esse refinamento ajuda os próprios métodos de aprendizagem. Cria-se então um ciclo.</li>
+</ol>
+<p>Esse processo é sumarizado na figura abaixo.</p>
 <div class="figure" style="width: 781px; height: auto; max-width: 100%;">
 <img alt="Aprendizagem de Ontologias == Reserve Engineering" class="align-center" src="images/reverse.png" style="width: 781px; height: auto; max-width: 100%;"/>
 <p class="caption">Aprendizagem de Ontologias == Reserve Engineering</p>
 </div>
-<ol class="arabic simple">
-<li>Especialistas do domínio escrevem artigos, relatórios técnicos, livros, etc.</li>
-<li>Isso tá lá em texto (é seu corpus).</li>
-<li>Com a aprendizagem temos uma conceitualização do
-domínio numa ontologia (seja ela uma hierarquia simples ou uma
-ontologia com relacionamentos e axiomas).</li>
-<li>As definições que estão na ontologia representam uma síntese da
-opinião consensual dos especialistas sobre aquele domínio. Os
-especialistas ou os usuários da aplicação usando a ontologia (que
-podem ser outros especialistas) podem melhorar a ontologia depois, e
-esse refinamento ajuda os próprios métodos de aprendizagem. Cria-se
-então uma linha de passe (ciclo) em (2,3,4) - não tá representado aí
-na figura. Depois de algumas rodadas, a ontologia pode ganhar um
-troféuzinho.</li>
-</ol>
-<p>Isso pode ser visto como uma tarefa de áreas como Extração de Informação
-e Mineração de Texto.
-Outros nomes tratam do mesmo assunto com nomes diferentes como
+<p>Aprendizagem de ontologia pode ser visto como uma tarefa de áreas como Extração de Informação e Mineração de Texto.</p>
+<p>Outros nomes tratam do mesmo assunto com nomes diferentes como
 (Extração | Emergência | Geração | Aquisição |
-Descoberta | População | Enriquecimento) de ontologias, com algumas diferenças bem sutis.
-Pra mim o nome mesmo é Aprendizagem de Ontologias (Ontology Learning).</p>
-<p>Saiba mais: <a class="reference external" href="http://en.wikipedia.org/wiki/Ontology_learning">Wikipedia, in English</a>.
-E mais: <a class="reference external" href="http://olp.dfki.de/OntoLT/OntoLT.htm">Ferramenta e plug-in Protége OntoLT</a>!</p>
+Descoberta | População | Enriquecimento) de ontologias, com algumas diferenças bem sutis.</p>
+<p>Saiba mais:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://en.wikipedia.org/wiki/Ontology_learning">Ontology Learning - Wikipedia, in English</a>.</li>
+<li><a class="reference external" href="http://olp.dfki.de/OntoLT/OntoLT.htm">Ferramenta e plug-in Protége OntoLT</a>!</li>
+</ul>
 </body></html>
             </div>
             <!-- /.entry-content -->
@@ -207,17 +205,7 @@ E mais: <a class="reference external" href="http://olp.dfki.de/OntoLT/OntoLT.htm
                                 debian
                             </a>
                         </li>
-                        <li class="list-group-item tag-4">
-                            <a href="/tag/folkosonomy.html">
-                                folkosonomy
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="/tag/folksonomies.html">
-                                folksonomies
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
+                        <li class="list-group-item tag-1">
                             <a href="/tag/folksonomy.html">
                                 folksonomy
                             </a>
@@ -278,6 +266,11 @@ E mais: <a class="reference external" href="http://olp.dfki.de/OntoLT/OntoLT.htm
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
+                            <a href="/tag/ontologies.html">
+                                ontologies
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
                             <a href="/tag/ontology-learning.html">
                                 ontology learning
                             </a>
@@ -328,8 +321,8 @@ E mais: <a class="reference external" href="http://olp.dfki.de/OntoLT/OntoLT.htm
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="/tag/semantic-wiki.html">
-                                semantic wiki
+                            <a href="/tag/semantic-wikis.html">
+                                semantic wikis
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
@@ -347,7 +340,7 @@ E mais: <a class="reference external" href="http://olp.dfki.de/OntoLT/OntoLT.htm
                                 tag suggestion
                             </a>
                         </li>
-                        <li class="list-group-item tag-4">
+                        <li class="list-group-item tag-2">
                             <a href="/tag/tagging.html">
                                 tagging
                             </a>
