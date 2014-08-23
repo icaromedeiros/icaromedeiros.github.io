@@ -6325,3 +6325,7 @@ input:focus,
   color: #98978b;
 }
 
+.aboutme {
+    background-color: #C7E9F1;
+    padding: 5px;
+}
