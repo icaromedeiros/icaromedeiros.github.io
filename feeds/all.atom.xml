@@ -12,11 +12,33 @@
 &lt;li&gt;I want to import my old posts nicely.&lt;/li&gt;
 &lt;li&gt;I want i18n (i.e. write both in &lt;cite&gt;en&lt;/cite&gt; and &lt;cite&gt;pt-br&lt;/cite&gt;).&lt;/li&gt;
 &lt;li&gt;I want to write semantic annotations in my posts (using Microdata and &lt;a class="reference external" href="http://schema.org"&gt;schema.org&lt;/a&gt; easily).&lt;/li&gt;
-&lt;li&gt;I want my blog to be responsive.&lt;/li&gt;
+&lt;li&gt;I want my blog to be responsive, working nicely in mobile devices.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://wordpress.org"&gt;Wordpress&lt;/a&gt; is enough for most people, but basically fails in items 1, 2, 3.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;/&lt;a class="reference external" href="http://octopress.org/"&gt;Octopress&lt;/a&gt; seemed  programmer-friendly from the start, but Python is a low entry barrier for me, specially for implementing microdata semantic annotation (item 7), as there is a &lt;a class="reference external" href="https://github.com/noirbizarre/pelican-microdata"&gt;plugin&lt;/a&gt; already.&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;/&lt;a class="reference external" href="http://octopress.org/"&gt;Octopress&lt;/a&gt; seemed  programmer-friendly from the start, but Python is a low entry barrier for me than Ruby, specially for implementing microdata semantic annotation (item 7), as there is a &lt;a class="reference external" href="https://github.com/noirbizarre/pelican-microdata"&gt;plugin&lt;/a&gt; already.&lt;/p&gt;
+&lt;p&gt;Speaking of microdata, I just &lt;a class="reference external" href="http://github.com/icaromedeiros/pelican-microdata"&gt;improved pelican-microdata&lt;/a&gt; a little.&lt;/p&gt;
+&lt;p&gt;PS: In fact, in item 6, it was a little bit frustrating the difficult of configuring &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins/tree/master/i18n_subsites"&gt;i18n subsites&lt;/a&gt; plugin.
+I just gave up and just used intra-article translations.&lt;/p&gt;
+&lt;/body&gt;&lt;/html&gt;</summary><category term="blogging"></category></entry><entry><title>De volta</title><link href="http://www.icaromedeiros.com.br/im-back-pt.html" rel="alternate"></link><updated>2014-08-10T00:00:00-03:00</updated><author><name>Ícaro Medeiros</name></author><id>tag:www.icaromedeiros.com.br,2014-08-10:im-back-pt.html</id><summary type="html">&lt;html&gt;&lt;body&gt;&lt;p&gt;Olá a todos.&lt;/p&gt;
+&lt;p&gt;Eu blogava &lt;a class="reference external" href="http://kirux.wordpress.com"&gt;aqui&lt;/a&gt; durante meu mestrado [2008-2009], apenas em português.&lt;/p&gt;
+&lt;p&gt;Agora eu tenho esse novo blog orgulhosamente construído com &lt;a class="reference external" href="http://blog.getpelican.com/"&gt;Pelican&lt;/a&gt;, &lt;a class="reference external" href="http://python.org"&gt;Python&lt;/a&gt;, &lt;a class="reference external" href="http://sphinx-doc.org/rest.html"&gt;RestructuredText&lt;/a&gt;, e a &lt;em&gt;fantástica ferramenta de deploy de páginas estáticas&lt;/em&gt; que o &lt;a class="reference external" href="http://pages.github.com"&gt;Github Pages&lt;/a&gt; oferece.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Um pouco sobre ferramentas de blog&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Alguns dos meus requisitos não formais para uma ferramenta de blog que me fizeram tomar essas escolhas:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Eu não quero emails, mídia social ou conexão com a Internet atrapalhando a escrita.&lt;/li&gt;
+&lt;li&gt;Eu não quero uma ferramenta WYSIWYG, um &lt;a class="reference external" href="http://www.vim.org"&gt;grande, porém simples editor de texto&lt;/a&gt; funcionará.&lt;/li&gt;
+&lt;li&gt;Eu quero ter páginas estáticas e controle do HTML final.&lt;/li&gt;
+&lt;li&gt;Eu quero ter deploys fáceis.&lt;/li&gt;
+&lt;li&gt;Eu quero importar meus posts antigos facilmente.&lt;/li&gt;
+&lt;li&gt;Eu quero ter internacionalização (escrever em inglês e português).&lt;/li&gt;
+&lt;li&gt;Eu quero escrever anotação semântica nos posts (usando Mcriodata e &lt;a class="reference external" href="http://schema.org"&gt;schema.org&lt;/a&gt; facilmente).&lt;/li&gt;
+&lt;li&gt;Eu quero que o blog seja responsivo, funcionando bem em dispositivos móveis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://wordpress.org"&gt;Wordpress&lt;/a&gt; é suficiente pra maioria das pessoas mas falha nos itens 1, 2 e 3.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;/&lt;a class="reference external" href="http://octopress.org/"&gt;Octopress&lt;/a&gt; parecia uma opção viável desde o começo, mas Python é uma barreira de entrada menor pra mim do que Ruby, especialmente pra escrever microdata (item 7), até porque já existe um &lt;a class="reference external" href="https://github.com/noirbizarre/pelican-microdata"&gt;plugin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Falando em microdata, eu &lt;a class="reference external" href="http://github.com/icaromedeiros/pelican-microdata"&gt;melhorei o plugin pelican-microdata&lt;/a&gt; um pouco.&lt;/p&gt;
+&lt;p&gt;PS: Na verdade, sobre o item 6, foi um pouco frustrante a dificuldade em configurar o plugin &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins/tree/master/i18n_subsites"&gt;i18n subsites&lt;/a&gt;.
+Eu simplesmente desisti e usei apenas as traduções intra-artigos.&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;</summary><category term="blogging"></category></entry><entry><title>Master thesis</title><link href="http://www.icaromedeiros.com.br/master-thesis.html" rel="alternate"></link><updated>2009-09-23T15:27:00-03:00</updated><author><name>Ícaro Medeiros</name></author><id>tag:www.icaromedeiros.com.br,2009-09-23:master-thesis.html</id><summary type="html">&lt;html&gt;&lt;body&gt;&lt;p&gt;Bom, o assunto da dissertação: &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Folksonomy"&gt;Folksonomias&lt;/a&gt; e Sugestão de tags.&lt;/p&gt;
 &lt;p&gt;Construí um sistema que extraiu dados do Delicious e depois usei técnicas de Information Retrieval, Machine Learning e outras coisas para sugerir automaticamente tags para uma página Web.&lt;/p&gt;
 &lt;p&gt;Usei como base da sugestão de tags pra páginas Web o conteúdo textual, páginas vizinhas (inbound pages) e informação do WordNet e ontologias.&lt;/p&gt;

@@ -12,11 +12,13 @@
 &lt;li&gt;I want to import my old posts nicely.&lt;/li&gt;
 &lt;li&gt;I want i18n (i.e. write both in &lt;cite&gt;en&lt;/cite&gt; and &lt;cite&gt;pt-br&lt;/cite&gt;).&lt;/li&gt;
 &lt;li&gt;I want to write semantic annotations in my posts (using Microdata and &lt;a class="reference external" href="http://schema.org"&gt;schema.org&lt;/a&gt; easily).&lt;/li&gt;
-&lt;li&gt;I want my blog to be responsive.&lt;/li&gt;
+&lt;li&gt;I want my blog to be responsive, working nicely in mobile devices.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://wordpress.org"&gt;Wordpress&lt;/a&gt; is enough for most people, but basically fails in items 1, 2, 3.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;/&lt;a class="reference external" href="http://octopress.org/"&gt;Octopress&lt;/a&gt; seemed  programmer-friendly from the start, but Python is a low entry barrier for me, specially for implementing microdata semantic annotation (item 7), as there is a &lt;a class="reference external" href="https://github.com/noirbizarre/pelican-microdata"&gt;plugin&lt;/a&gt; already.&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;/&lt;a class="reference external" href="http://octopress.org/"&gt;Octopress&lt;/a&gt; seemed  programmer-friendly from the start, but Python is a low entry barrier for me than Ruby, specially for implementing microdata semantic annotation (item 7), as there is a &lt;a class="reference external" href="https://github.com/noirbizarre/pelican-microdata"&gt;plugin&lt;/a&gt; already.&lt;/p&gt;
+&lt;p&gt;Speaking of microdata, I just &lt;a class="reference external" href="http://github.com/icaromedeiros/pelican-microdata"&gt;improved pelican-microdata&lt;/a&gt; a little.&lt;/p&gt;
+&lt;p&gt;PS: In fact, in item 6, it was a little bit frustrating the difficult of configuring &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins/tree/master/i18n_subsites"&gt;i18n subsites&lt;/a&gt; plugin.
+I just gave up and just used intra-article translations.&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;</summary><category term="blogging"></category></entry><entry><title>Master thesis</title><link href="http://www.icaromedeiros.com.br/master-thesis.html" rel="alternate"></link><updated>2009-09-23T15:27:00-03:00</updated><author><name>Ícaro Medeiros</name></author><id>tag:www.icaromedeiros.com.br,2009-09-23:master-thesis.html</id><summary type="html">&lt;html&gt;&lt;body&gt;&lt;p&gt;Bom, o assunto da dissertação: &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Folksonomy"&gt;Folksonomias&lt;/a&gt; e Sugestão de tags.&lt;/p&gt;
 &lt;p&gt;Construí um sistema que extraiu dados do Delicious e depois usei técnicas de Information Retrieval, Machine Learning e outras coisas para sugerir automaticamente tags para uma página Web.&lt;/p&gt;
 &lt;p&gt;Usei como base da sugestão de tags pra páginas Web o conteúdo textual, páginas vizinhas (inbound pages) e informação do WordNet e ontologias.&lt;/p&gt;
