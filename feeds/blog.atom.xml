@@ -4,8 +4,8 @@
 &lt;img alt="Linked Data in Use" class="align-center" src="images/icaro-medeiros-front-bahia.jpg" style="width: 600px; height: auto;background-color: #E0E0E0; border-radius: 5%; padding: 10px; max-width: 100%;"/&gt;
 &lt;p class="caption"&gt;Linked Data in Use&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;In this talk I walk throgh Semantic Web initiatives, like RDF and SPARQL, linked data principles, discuss some implementation and adoption issues and talk about semantic annotation in HTML.&lt;/p&gt;
-&lt;p&gt;Semantic annotation using the &lt;a class="reference external" href="http://schema.org"&gt;Schema.org&lt;/a&gt; vocabulary is demonstrated using both HTML 5 Microdata or &lt;a class="reference external" href="http://json-ld.org"&gt;JSON-LD&lt;/a&gt; input.&lt;/p&gt;
+&lt;p&gt;In this talk I walk through Semantic Web initiatives, like RDF and SPARQL, linked data principles, discuss some implementation and adoption issues and talk about semantic annotation in HTML.&lt;/p&gt;
+&lt;p&gt;Semantic annotation using the &lt;a class="reference external" href="http://schema.org"&gt;Schema.org&lt;/a&gt; vocabulary is demonstrated using both HTML 5 Microdata or &lt;a class="reference external" href="json-ld.org"&gt;JSON-LD&lt;/a&gt; input.&lt;/p&gt;
 &lt;div class="align-center" style="width: 483px; height: auto;background-color: #E0E0E0; border-radius: 5%; padding: 10px; max-width: 100%;"&gt;
 &lt;img alt="Schema.org example" class="align-center" src="images/schema-org-example.png" style="width: 483px; height: auto;background-color: #E0E0E0; border-radius: 5%; padding: 10px; max-width: 100%;"/&gt;
 &lt;p class="caption"&gt;Schema.org example&lt;/p&gt;
