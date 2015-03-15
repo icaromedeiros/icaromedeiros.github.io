@@ -1,5 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ícaro Medeiros</title><link href="http://www.icaromedeiros.com.br/" rel="alternate"></link><link href="http://www.icaromedeiros.com.br/feeds/icaro-medeiros.atom.xml" rel="self"></link><id>http://www.icaromedeiros.com.br/</id><updated>2014-11-23T00:00:00-02:00</updated><entry><title>Dotfiles: What they are, why you need one, where they live, how to do it?</title><link href="http://www.icaromedeiros.com.br/dotfiles-what-they-are-why-you-need-one-where-they-live-how-to-do-it.html" rel="alternate"></link><updated>2014-11-23T00:00:00-02:00</updated><author><name>Ícaro Medeiros</name></author><id>tag:www.icaromedeiros.com.br,2014-11-23:dotfiles-what-they-are-why-you-need-one-where-they-live-how-to-do-it.html</id><summary type="html">&lt;div class="section" id="what-they-are"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ícaro Medeiros</title><link href="http://www.icaromedeiros.com.br/" rel="alternate"></link><link href="http://www.icaromedeiros.com.br/feeds/icaro-medeiros.atom.xml" rel="self"></link><id>http://www.icaromedeiros.com.br/</id><updated>2015-03-11T00:00:00-03:00</updated><entry><title>Linked Data, Big Data and User Science at globo.com</title><link href="http://www.icaromedeiros.com.br/linked-data-big-data-user-science-at-globo-com.html" rel="alternate"></link><updated>2015-03-11T00:00:00-03:00</updated><author><name>Ícaro Medeiros</name></author><id>tag:www.icaromedeiros.com.br,2015-03-11:linked-data-big-data-user-science-at-globo-com.html</id><summary type="html">&lt;p itemscope="" itemtype="http://schema.org/EducationEvent"&gt;This week in &lt;span itemprop="location"&gt;Rio&lt;/span&gt; the first &lt;span itemprop="name"&gt;Semantic Computing Meeting&lt;/span&gt; was held at &lt;span itemprop="address"&gt;IGEO (Federal University of Rio de Janeiro)&lt;/span&gt;.
+I was pleased to present a talk about the work we do at Globo.com regarding Linked Data, Big Data and User Science.&lt;/p&gt;&lt;p&gt;This &lt;a class="reference external" href="http://compsem.github.io"&gt;meeting&lt;/a&gt; gathered many researchers and industry practicioneers on Semantic Web, Natural Language Processing, Machine Learning, Big Data, Information Retrieval, and related areas.&lt;/p&gt;
+&lt;p&gt;Throughout the day it was possible to get some insights about trending topics on these areas,
+from researchers with great academic background such as &lt;a class="reference external" href="http://www.inf.puc-rio.br/~schwabe"&gt;Daniel Schwabe&lt;/a&gt;
+(professor at &lt;a class="reference external" href="http://www.inf.puc-rio.br"&gt;PUC-Rio&lt;/a&gt;)
+to leading industry researchers like &lt;a class="reference external" href="https://br.linkedin.com/pub/karin-breitman/0/697/602"&gt;Karin Breitman&lt;/a&gt;
+(formerly a professor at PUC-Rio and now chief scientist at &lt;a class="reference external" href="http://www.emc.com/brazilresearch"&gt;EMC Research Brazil&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Moreover, IBM research Brazil was also represented by researchers &lt;cite&gt;Cícero dos Santos &amp;lt;http://researcher.watson.ibm.com/researcher/view.php?person=br-cicerons&amp;gt;_&lt;/cite&gt; and &lt;a class="reference external" href="http://researcher.watson.ibm.com/researcher/view.php?person=br-alexrad"&gt;Alexandre Rademaker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After &lt;a class="reference external" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/"&gt;Watson&lt;/a&gt; development,
+IBM is now intensively trying to create products with related technologies
+in their new business area named as &lt;a class="reference external" href="http://www.research.ibm.com/cognitive-computing/"&gt;Cognitive Computing&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It is interesting to see that we now have an active community for these technologies
+and more and more events are starting to appear,
+such a &lt;a class="reference external" href="http://www.meetup.com/Rio-Big-Data-Meetup/"&gt;Rio Big Data Meetup&lt;/a&gt;.
+Moreover, traditional software development conferences like
+&lt;a class="reference external" href="http://qconsp.com/track/big-data-aplica%C3%A7%C3%B5es-que-aprendem"&gt;QCon São Paulo&lt;/a&gt;
+how have Big Data tracks.&lt;/p&gt;
+&lt;div class="section" id="about-my-talk"&gt;
+&lt;h2&gt;About my talk&lt;/h2&gt;
+&lt;p&gt;In my talk I walk through how Globo.com is interested in getting to know better content, interactions, and users.&lt;/p&gt;
+&lt;p&gt;The first axis (content) is well developed by ontologies,
+a triplestore database &lt;a class="reference external" href="http://virtuoso.openlinksw.com/"&gt;Virtuoso&lt;/a&gt;,
+and a semantic annotation tool that is well documented
+(there are lots of examples on my &lt;a class="reference external" href="http://slideshare.net/icaromedeiros"&gt;slideshare account&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Now we are intensively working on understanding user interaction through a pipeline that starts on the user browser where we capture events and goes through &lt;a class="reference external" href="http://kafka.apache.org/"&gt;Kafka messaging service&lt;/a&gt; and, finally, to &lt;a class="reference external" href="http://hbase.apache.org/"&gt;Hbase persistence&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This lead us to semantic user modeling that works by matching our semantic content classification
+with user interaction.
+Annotations from interacted content are then added to a user profile with a score representing
+how relevant a specific entity (person, place, organization and so on) is to a user.&lt;/p&gt;
+&lt;p&gt;We use &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Spreading_activation"&gt;spreading activation&lt;/a&gt;,
+a semantic network technique, to assign weights to entities in a user model.
+It is a form of simple inference to capture related entities with the ones directly
+annotated in content users interacted with, as depicted below.&lt;/p&gt;
+&lt;div class="align-center" style="width: 600px; height: auto;background-color: #E0E0E0; border-radius: 5%; padding: 10px; max-width: 100%;"&gt;
+&lt;img alt="Spreading Activation" class="align-center" src="images/spreading-activation.png" style="width: 600px; height: auto;background-color: #E0E0E0; border-radius: 5%; padding: 10px; max-width: 100%;"/&gt;
+&lt;p class="caption"&gt;Spreading Activation&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Some questions can then be answered by querying a user profile:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;What team does the user support?&lt;/li&gt;
+&lt;li&gt;Where does the user lives?&lt;/li&gt;
+&lt;li&gt;Which TV celebrity does the user likes most?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example, this visualization shows my profile in product &lt;a class="reference external" href="http://g1.globo.com"&gt;G1&lt;/a&gt;,
+where the circle size represent entity score and colors represent classes.&lt;/p&gt;
+&lt;div class="align-center" style="width: 600px; height: auto;background-color: #E0E0E0; border-radius: 5%; padding: 10px; max-width: 100%;"&gt;
+&lt;img alt="My user profile at G1" class="align-center" src="images/user-profile.png" style="width: 600px; height: auto;background-color: #E0E0E0; border-radius: 5%; padding: 10px; max-width: 100%;"/&gt;
+&lt;p class="caption"&gt;My user profile at G1&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Enjoy the slides and feel free to comment.&lt;/p&gt;
+&lt;iframe frameborder="0" height="400" marginheight="0" marginwidth="0" scrolling="no" src="//www.slideshare.net/slideshow/embed_code/39052354" width="476"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div class="section" id="more-about-the-meeting"&gt;
+&lt;h2&gt;More about the meeting&lt;/h2&gt;
+&lt;p&gt;Refer to the &lt;a class="reference external" href="http://compsem.github.io"&gt;meeting website&lt;/a&gt; for presenter's contact information.&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="talks"></category><category term="linked data"></category><category term="rdf"></category><category term="sparql"></category><category term="semantic web"></category><category term="big data"></category><category term="hadoop"></category><category term="kafka"></category><category term="user modeling"></category><category term="user science"></category><category term="user tracking"></category><category term="social media analytics"></category></entry><entry><title>Dotfiles: What they are, why you need one, where they live, how to do it?</title><link href="http://www.icaromedeiros.com.br/dotfiles-what-they-are-why-you-need-one-where-they-live-how-to-do-it.html" rel="alternate"></link><updated>2014-11-23T00:00:00-02:00</updated><author><name>Ícaro Medeiros</name></author><id>tag:www.icaromedeiros.com.br,2014-11-23:dotfiles-what-they-are-why-you-need-one-where-they-live-how-to-do-it.html</id><summary type="html">&lt;div class="section" id="what-they-are"&gt;
 &lt;h2&gt;What they are&lt;/h2&gt;
 &lt;p&gt;Dotfiles are configuration files that reside in your home (&lt;tt class="docutils literal"&gt;~&lt;/tt&gt;) directory.
 They are hidden files, preceded with a dot (&lt;tt class="docutils literal"&gt;.&lt;/tt&gt;), that's why they're called &lt;strong&gt;dotfiles&lt;/strong&gt; and
