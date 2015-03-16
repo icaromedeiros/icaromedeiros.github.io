@@ -885,12 +885,12 @@ th {
   box-sizing: border-box;
 }
 html {
-  font-size: 10px;
+  font-size: 12px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   line-height: 1.42857143;
   color: #3e3f3a;
   background-color: #ffffff;
@@ -1093,9 +1093,13 @@ h6,
 .h6 {
   font-size: 12px;
 }
-p {
-  margin: 0 0 10px;
+p .fivespace {
+  margin: 0 0 5px;
 }
+p {
+  margin: 0 0 20px;
+}
+
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
