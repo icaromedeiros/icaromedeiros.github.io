@@ -5,37 +5,7 @@ in portuguese.&lt;/p&gt;
 &amp;lt;https://medium.com/@icaromedeiros/ondas-gravitacionais-inovação-e-time-to-market-6e6de242f52a&amp;gt;`_&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;`Como a cultura come Data Science com farinha
 &amp;lt;https://medium.com/@icaromedeiros/como-a-cultura-come-data-science-com-farinha-9050973302b4&amp;gt;`_&lt;/em&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ícaro Medeiros</dc:creator><pubDate>Sun, 12 Mar 2017 00:00:00 -0300</pubDate><guid isPermaLink="false">tag:www.icaromedeiros.com.br,2017-03-12:articles-on-medium.html</guid><category>medium</category><category>data science</category><category>innovation</category></item><item><title>Why Grey Literature?</title><link>http://www.icaromedeiros.com.br/why-grey-literature.html</link><description>&lt;p&gt;Academic publishing sometimes is messy,
-specially in
-&lt;a class="reference external" href="http://matt-welsh.blogspot.com.br/2016/01/academics-we-need-to-talk.html"&gt;Computer Science&lt;/a&gt;.
-Toy examples, industry-irrelevant work that people will not use, etc etc.&lt;/p&gt;
-&lt;p&gt;Moreover, the blind review method is somewhat quite future blind.
-Look at the rejection text on
-&lt;a class="reference external" href="http://cacm.acm.org/blogs/blog-cacm/123611-the-nastiness-problem-in-computer-science/fulltext"&gt;a paper written by Bertrand Meyer (inventor of Eiffel language)&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;"Systems that do automatic garbage collection and prevent the designer
-from doing his own memory management are not good systems for
-industrial-strength software engineering."&lt;/p&gt;
-&lt;p&gt;We can never know the author of this pearl.
-Of course we need some skepticism and reviewers have the right to be wrong.
-But on the other hand, well, reviewers should be disclosed at some point.
-At least for the shame of being wrong.
-It does wonders on pride, on learning to learn, on embracing industry change, etc.&lt;/p&gt;
-&lt;p&gt;And that's why I really don't care where it is published.
-There is some great grey literature on blogs like this one from Peter Norvig:&lt;/p&gt;
-&lt;p&gt;Norvig, Peter.
-"On Chomsky and the two cultures of statistical learning." Author Homepage (2011).
-This is &lt;strong&gt;SO&lt;/strong&gt; good.&lt;/p&gt;
-&lt;p&gt;Of course conferences and journals are great.
-Specially conferences.
-Interacting with people is great for science.
-Open real time debate can be even greater.&lt;/p&gt;
-&lt;p&gt;I really don't care HOW the knowledge is shared, too.
-Spoken language is also okay to me.
-For example, I'm so luck I could watch great minds arguing on the ISWC 2012 Big Graph Data Panel&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://videolectures.net/iswc2012_big_graph_data/"&gt;http://videolectures.net/iswc2012_big_graph_data/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Summing up, good grey literature is great.
-Throughout this blog you can check mine.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ícaro Medeiros</dc:creator><pubDate>Sun, 12 Mar 2017 00:00:00 -0300</pubDate><guid isPermaLink="false">tag:www.icaromedeiros.com.br,2017-03-12:why-grey-literature.html</guid><category>academia</category><category>computer science</category></item><item><title>Statistics and Python for Data Science</title><link>http://www.icaromedeiros.com.br/statistics-and-python-for-data-science.html</link><description>&lt;p&gt;On this post I will briefly discuss two presentations I have made in São Paulo in early November/2015.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ícaro Medeiros</dc:creator><pubDate>Sun, 12 Mar 2017 00:00:00 -0300</pubDate><guid isPermaLink="false">tag:www.icaromedeiros.com.br,2017-03-12:articles-on-medium.html</guid><category>medium</category><category>data science</category><category>innovation</category></item><item><title>Statistics and Python for Data Science</title><link>http://www.icaromedeiros.com.br/statistics-and-python-for-data-science.html</link><description>&lt;p&gt;On this post I will briefly discuss two presentations I have made in São Paulo in early November/2015.&lt;/p&gt;
 &lt;div class="section" id="statistics-the-grammar-of-data-science"&gt;
 &lt;h2&gt;Statistics: the Grammar of Data Science&lt;/h2&gt;
 &lt;p&gt;As I decided to become a data scientist (link to some post about how to become a data scientist),
