@@ -1,27 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Ícaro Medeiros</title><link>http://www.icaromedeiros.com.br/</link><description></description><lastBuildDate>Sun, 12 Mar 2017 00:00:00 -0300</lastBuildDate><item><title>Articles on Medium</title><link>http://www.icaromedeiros.com.br/articles-on-medium.html</link><description>&lt;p&gt;I've not updated the blog for some time but I've written some things on Medium,
-in portuguese.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;`Ondas gravitacionais, inovação e time-to-market
-&amp;lt;https://medium.com/@icaromedeiros/ondas-gravitacionais-inovação-e-time-to-market-6e6de242f52a&amp;gt;`_&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;`Como a cultura come Data Science com farinha
-&amp;lt;https://medium.com/@icaromedeiros/como-a-cultura-come-data-science-com-farinha-9050973302b4&amp;gt;`_&lt;/em&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ícaro Medeiros</dc:creator><pubDate>Sun, 12 Mar 2017 00:00:00 -0300</pubDate><guid isPermaLink="false">tag:www.icaromedeiros.com.br,2017-03-12:articles-on-medium.html</guid><category>medium</category><category>data science</category><category>innovation</category></item><item><title>Statistics and Python for Data Science</title><link>http://www.icaromedeiros.com.br/statistics-and-python-for-data-science.html</link><description>&lt;p&gt;On this post I will briefly discuss two presentations I have made in São Paulo in early November/2015.&lt;/p&gt;
-&lt;div class="section" id="statistics-the-grammar-of-data-science"&gt;
-&lt;h2&gt;Statistics: the Grammar of Data Science&lt;/h2&gt;
-&lt;p&gt;As I decided to become a data scientist (link to some post about how to become a data scientist),
-I've noticed that my statistics background was not good (btw, Computer Science majors should emphasize it more).&lt;/p&gt;
-&lt;p&gt;So I've started to dive into Statistics courses (link to udacity courses), books, and blog posts.
-I have learned a lot and two materials standed up (?) for their graspness (?): Statistics for Hackers and Naked Statistics.&lt;/p&gt;
-&lt;p&gt;Inspired by their approach of giving simple examples to teach complex subjects I thought I could do the same in a conference.
-And based on the audience receptiveness I think I have done this task.&lt;/p&gt;
-&lt;p&gt;The talk goes through misuses, metrics, methods, and meaning (i.e. communication).
-Some (classic) examples like correlation vs. causation and p-hacking are shown in a light way (i.e. memes and cool visualizations).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="python-for-data-science"&gt;
-&lt;h2&gt;Python for Data Science&lt;/h2&gt;
-&lt;p&gt;a&lt;/p&gt;
-&lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ícaro Medeiros</dc:creator><pubDate>Mon, 30 Nov 2015 00:00:00 -0200</pubDate><guid isPermaLink="false">tag:www.icaromedeiros.com.br,2015-11-30:statistics-and-python-for-data-science.html</guid><category>statistics</category><category>data science</category><category>dataviz</category><category>python</category><category>spark</category><category>pandas</category></item><item><title>Linked Data, Big Data and User Science at globo.com</title><link>http://www.icaromedeiros.com.br/linked-data-big-data-user-science-at-globo-com.html</link><description>&lt;p itemscope="" itemtype="http://schema.org/EducationEvent"&gt;This week in &lt;span itemprop="location"&gt;Rio&lt;/span&gt; the first &lt;span itemprop="name"&gt;Semantic Computing Meeting&lt;/span&gt; was held at &lt;span itemprop="address"&gt;IGEO (Federal University of Rio de Janeiro)&lt;/span&gt;.
+<rss version="2.0"><channel><title>Ícaro Medeiros</title><link>http://www.icaromedeiros.com.br/</link><description></description><lastBuildDate>Sun, 15 Mar 2015 00:00:00 -0300</lastBuildDate><item><title>Linked Data, Big Data and User Science at globo.com</title><link>http://www.icaromedeiros.com.br/linked-data-big-data-user-science-at-globo-com.html</link><description>&lt;p itemscope="" itemtype="http://schema.org/EducationEvent"&gt;This week in &lt;span itemprop="location"&gt;Rio&lt;/span&gt; the first &lt;span itemprop="name"&gt;Semantic Computing Meeting&lt;/span&gt; was held at &lt;span itemprop="address"&gt;IGEO (Federal University of Rio de Janeiro)&lt;/span&gt;.
 I was pleased to talk about the work we do at Globo.com regarding Linked Data, Big Data, and User Science.&lt;/p&gt;&lt;p&gt;This &lt;a class="reference external" href="http://compsem.github.io"&gt;meeting&lt;/a&gt; gathered many researchers and industry practicioneers on Semantic Web, Natural Language Processing, Machine Learning, Big Data, Information Retrieval, and related areas.&lt;/p&gt;
 &lt;p&gt;Throughout the day it was possible to get some insights about trending topics on these areas,
 from researchers with great academic background such as &lt;a class="reference external" href="http://www.inf.puc-rio.br/~schwabe"&gt;Daniel Schwabe&lt;/a&gt;
